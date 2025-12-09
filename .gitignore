@@ -1,0 +1,10 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Droids first try folder
+droids_first_try/
+
+# Windows Zone.Identifier files
+*.Zone.Identifier

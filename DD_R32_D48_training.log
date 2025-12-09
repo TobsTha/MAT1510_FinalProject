@@ -1,0 +1,219 @@
+Using device: cpu
+
+============================================================
+ERANK SENSITIVITY TEST
+============================================================
+
+Base embeddings (rank ~2): erank = 1.9391
+  + 0.001*std noise: erank = 1.9391
+  + 0.010*std noise: erank = 1.9416
+  + 0.100*std noise: erank = 2.1093
+  + 0.500*std noise: erank = 5.7952
+  + 1.000*std noise: erank = 18.6279
+
+============================================================
+WEIGHT CHANGE ANALYSIS
+============================================================
+
+Layer                                    Init Norm    Trained Norm Change       Rel Change  
+------------------------------------------------------------------------------------------
+network.0.weight                         11.3753      11.3711      16.0352      1.4096      
+network.0.bias                           0.0000       0.1511       0.1511       1510778814.5542
+network.2.weight                         11.4918      11.5836      16.2591      1.4148      
+network.2.bias                           0.0000       0.0997       0.0997       996501818.2993
+network.4.weight                         11.2861      11.4720      16.1915      1.4346      
+network.4.bias                           0.0000       0.0971       0.0971       970526859.1642
+network.6.weight                         11.3469      11.4674      16.1892      1.4267      
+network.6.bias                           0.0000       0.1066       0.1066       1065520718.6937
+network.8.weight                         11.4734      11.5819      16.2961      1.4203      
+network.8.bias                           0.0000       0.0998       0.0998       998150706.2912
+network.10.weight                        11.3398      11.4225      15.9102      1.4030      
+network.10.bias                          0.0000       0.0845       0.0845       845304802.0601
+network.12.weight                        11.2072      11.6230      16.1670      1.4426      
+network.12.bias                          0.0000       0.0745       0.0745       745040252.8048
+network.14.weight                        11.4358      11.2407      15.8671      1.3875      
+network.14.bias                          0.0000       0.0957       0.0957       956700742.2447
+network.16.weight                        11.3747      11.3824      16.1999      1.4242      
+network.16.bias                          0.0000       0.0917       0.0917       916919037.6997
+network.18.weight                        11.3793      11.1542      15.8312      1.3912      
+network.18.bias                          0.0000       0.0899       0.0899       899051278.8296
+network.20.weight                        11.2089      11.5692      15.8118      1.4106      
+network.20.bias                          0.0000       0.0906       0.0906       906239300.9663
+network.22.weight                        11.3054      11.5958      16.2292      1.4355      
+network.22.bias                          0.0000       0.1203       0.1203       1202764660.1200
+network.24.weight                        11.4107      11.4278      16.2659      1.4255      
+network.24.bias                          0.0000       0.1213       0.1213       1213483586.9074
+network.26.weight                        11.4300      11.3133      15.9015      1.3912      
+network.26.bias                          0.0000       0.1368       0.1368       1367534846.0674
+network.28.weight                        11.2395      11.5117      16.1934      1.4408      
+network.28.bias                          0.0000       0.1376       0.1376       1375687271.3566
+network.30.weight                        11.1318      11.4873      15.9407      1.4320      
+network.30.bias                          0.0000       0.1304       0.1304       1304316073.6561
+network.32.weight                        11.3568      11.6412      16.4156      1.4454      
+network.32.bias                          0.0000       0.1548       0.1548       1547511965.0364
+network.34.weight                        11.4524      11.4842      16.0587      1.4022      
+network.34.bias                          0.0000       0.1481       0.1481       1481294780.9696
+network.36.weight                        11.3502      11.4434      16.1990      1.4272      
+network.36.bias                          0.0000       0.1525       0.1525       1524577587.8429
+network.38.weight                        11.4231      11.7190      16.2329      1.4211      
+network.38.bias                          0.0000       0.1269       0.1269       1268654167.6521
+network.40.weight                        11.3580      11.6374      16.4367      1.4472      
+network.40.bias                          0.0000       0.1552       0.1552       1552347987.8902
+network.42.weight                        11.1485      11.8221      16.4386      1.4745      
+network.42.bias                          0.0000       0.1370       0.1370       1370164752.0065
+network.44.weight                        11.1504      11.2907      16.0331      1.4379      
+network.44.bias                          0.0000       0.1437       0.1437       1436666995.2869
+network.46.weight                        11.3145      11.4755      16.1024      1.4232      
+network.46.bias                          0.0000       0.1413       0.1413       1412518322.4678
+network.48.weight                        11.3270      11.5651      16.0312      1.4153      
+network.48.bias                          0.0000       0.1596       0.1596       1596270799.6368
+network.50.weight                        11.3392      11.4648      16.0750      1.4176      
+network.50.bias                          0.0000       0.1443       0.1443       1443381756.5441
+network.52.weight                        11.3747      11.3758      16.2269      1.4266      
+network.52.bias                          0.0000       0.1446       0.1446       1445877701.0441
+network.54.weight                        11.2662      11.4569      16.0537      1.4249      
+network.54.bias                          0.0000       0.1215       0.1215       1215175986.2900
+network.56.weight                        11.2108      11.2939      16.0543      1.4320      
+network.56.bias                          0.0000       0.1047       0.1047       1046647280.4546
+network.58.weight                        11.2411      11.3194      15.6935      1.3961      
+network.58.bias                          0.0000       0.1144       0.1144       1143808588.3856
+network.60.weight                        11.3415      11.3841      16.0512      1.4153      
+network.60.bias                          0.0000       0.0966       0.0966       965782329.4401
+network.62.weight                        11.3826      11.4052      15.8812      1.3952      
+network.62.bias                          0.0000       0.0965       0.0965       965275391.9363
+network.64.weight                        11.3664      11.6154      16.1280      1.4189      
+network.64.bias                          0.0000       0.0925       0.0925       924843326.2110
+network.66.weight                        11.2673      11.5315      16.1274      1.4314      
+network.66.bias                          0.0000       0.0736       0.0736       735853761.4346
+network.68.weight                        11.3716      11.5136      16.1416      1.4195      
+network.68.bias                          0.0000       0.0686       0.0686       685643777.2512
+network.70.weight                        11.3096      11.5252      16.0865      1.4224      
+network.70.bias                          0.0000       0.0655       0.0655       654951855.5403
+network.72.weight                        11.1556      11.5257      15.9725      1.4318      
+network.72.bias                          0.0000       0.0674       0.0674       674296915.5312
+network.74.weight                        11.2369      11.4121      16.0244      1.4260      
+network.74.bias                          0.0000       0.0783       0.0783       783486589.7894
+network.76.weight                        11.4212      11.3788      16.1138      1.4109      
+network.76.bias                          0.0000       0.1013       0.1013       1012932509.1839
+network.78.weight                        11.2599      11.4169      15.9138      1.4133      
+network.78.bias                          0.0000       0.0901       0.0901       900532975.7929
+network.80.weight                        11.1336      11.4416      15.8379      1.4225      
+network.80.bias                          0.0000       0.1197       0.1197       1197419837.1172
+network.82.weight                        11.1556      11.3963      16.0109      1.4352      
+network.82.bias                          0.0000       0.1325       0.1325       1325215995.3117
+network.84.weight                        11.3151      11.6950      16.3995      1.4493      
+network.84.bias                          0.0000       0.1735       0.1735       1735390573.7400
+network.86.weight                        11.2195      11.4722      16.0202      1.4279      
+network.86.bias                          0.0000       0.1752       0.1752       1751687973.7377
+network.88.weight                        11.1638      11.6018      16.1395      1.4457      
+network.88.bias                          0.0000       0.1749       0.1749       1748979985.7140
+network.90.weight                        11.4957      11.7335      16.5331      1.4382      
+network.90.bias                          0.0000       0.2272       0.2272       2271548509.5978
+network.92.weight                        11.3169      11.5898      16.2305      1.4342      
+network.92.bias                          0.0000       0.2858       0.2858       2857537865.6387
+network.94.weight                        11.1773      11.5279      16.0676      1.4375      
+network.94.bias                          0.0000       0.4163       0.4163       4162682890.8920
+
+============================================================
+COMPARING RANDOM INIT vs TRAINED MODEL
+============================================================
+
+--- RANDOM INITIALIZATION ---
+
+Embedding Analysis:
+------------------------------------------------------------
+Shape: torch.Size([128, 64])
+Mean: 0.165110
+Std: 0.260517
+Min: 0.000000
+Max: 2.156529
+Dead neurons (always ~0): 24 / 64
+
+Singular value spectrum:
+  Top 5: [27.68718719482422, 2.703047513961792, 1.6007537841796875, 1.0550122261047363, 0.7813205718994141]
+  Bottom 5: [1.3767679547527223e-06, 1.3767679547527223e-06, 1.3767679547527223e-06, 1.3767679547527223e-06, 1.376740669911669e-06]
+  Ratio S[0]/S[-1]: 20109216.56
+  Variance in top-1: 98.4%
+  Variance in top-2: 99.3%
+  Variance in top-3: 99.6%
+  Variance in top-5: 99.9%
+  Variance in top-10: 100.0%
+  Variance in top-20: 100.0%
+
+Gram matrix effective rank: 1.1115
+
+--- TRAINED MODEL (200K EPOCHS) ---
+
+Embedding Analysis:
+------------------------------------------------------------
+Shape: torch.Size([128, 64])
+Mean: 11.284380
+Std: 16.024893
+Min: 0.000000
+Max: 116.731720
+Dead neurons (always ~0): 17 / 64
+
+Singular value spectrum:
+  Top 5: [1623.651611328125, 343.8980712890625, 254.84425354003906, 240.80796813964844, 208.24107360839844]
+  Bottom 5: [8.933596109272912e-05, 8.933596109272912e-05, 8.933596109272912e-05, 8.933596109272912e-05, 7.836193981347606e-05]
+  Ratio S[0]/S[-1]: 20719874.26
+  Variance in top-1: 83.8%
+  Variance in top-2: 87.5%
+  Variance in top-3: 89.6%
+  Variance in top-5: 92.8%
+  Variance in top-10: 96.8%
+  Variance in top-20: 99.1%
+
+Gram matrix effective rank: 2.4124
+
+--- COMPARISON ---
+Relative embedding change: 63.2116
+Embedding correlation: 0.0468
+
+--- GRADIENT ANALYSIS (trained model) ---
+
+Layer-wise gradient analysis:
+------------------------------------------------------------
+Layer                                    Grad Norm    Rel. Grad   
+------------------------------------------------------------
+network.88.weight                        0.123113     0.010612    
+network.90.weight                        0.116989     0.009971    
+network.86.weight                        0.116628     0.010166    
+network.84.weight                        0.092664     0.007923    
+network.92.weight                        0.087073     0.007513    
+network.82.weight                        0.074414     0.006530    
+network.78.weight                        0.065821     0.005765    
+network.80.weight                        0.060723     0.005307    
+network.72.weight                        0.048982     0.004250    
+network.74.weight                        0.048415     0.004242    
+
+======================================================================
+SUMMARY TABLE: Embedding Statistics Across Training
+======================================================================
+
+Metric                    Random Init     200k Epochs    
+-------------------------------------------------------
+Gram erank                1.11            2.41           
+Dead neurons              24/64           17/64          
+Variance in top-1 SV      98.4%           83.8%          
+Variance in top-5 SV      99.9%           92.8%          
+
+Note: 100k checkpoint not available. To include it, save checkpoint at 100k epochs.
+
+============================================================
+CONCLUSION
+============================================================
+
+If the effective rank is ~2.4 and not changing:
+1. The network likely initialized with most neurons dead (ReLU killing gradients)
+2. Only a small subspace of the penultimate layer is active
+3. Training is happening in this low-dimensional subspace
+4. This is consistent with "lazy training" in very deep networks
+
+Possible solutions to explore:
+1. Different initialization (smaller weights to keep more neurons alive)
+2. Different activation (LeakyReLU, GELU)
+3. Batch normalization
+4. Residual connections
+5. Lower depth
+

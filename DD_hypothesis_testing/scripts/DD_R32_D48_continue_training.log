@@ -1,0 +1,54 @@
+
+======================================================================
+CONTINUING TRAINING FROM CHECKPOINT
+======================================================================
+Loaded checkpoint from epoch 200000
+Adding 100000 more epochs
+Will train to epoch 300000
+Current loss at epoch 200000: 0.001320
+Current effective rank at epoch 200000: 3.68
+Continuing with LR: 0.0002
+  Initial effective rank: 3.68
+  Initial variance spectrum saved
+  Epoch 200000: loss = 0.001320, erank = 3.68, lr = 0.000200 (elapsed: 0.0min, ETA: 1947.0min)
+  Epoch 205000: loss = 0.001073, erank = 3.68, lr = 0.000200 (elapsed: 0.6min, ETA: 11.8min)
+  [Variance spectrum saved at epoch 210000]
+  Epoch 210000: loss = 0.001015, erank = 3.68, lr = 0.000200 (elapsed: 1.2min, ETA: 10.9min)
+  [Checkpoint saved at epoch 210000]
+  Epoch 215000: loss = 0.000961, erank = 3.68, lr = 0.000200 (elapsed: 1.8min, ETA: 10.3min)
+  [Variance spectrum saved at epoch 220000]
+  [Model snapshot saved at epoch 220000]
+  Epoch 220000: loss = 0.000935, erank = 3.68, lr = 0.000200 (elapsed: 2.4min, ETA: 9.6min)
+  [Checkpoint saved at epoch 220000]
+  Epoch 225000: loss = 0.000879, erank = 3.68, lr = 0.000200 (elapsed: 3.0min, ETA: 9.0min)
+  [Variance spectrum saved at epoch 230000]
+  Epoch 230000: loss = 0.004985, erank = 3.68, lr = 0.000200 (elapsed: 3.6min, ETA: 8.5min)
+  [Checkpoint saved at epoch 230000]
+  Epoch 235000: loss = 0.000804, erank = 3.68, lr = 0.000200 (elapsed: 4.2min, ETA: 7.9min)
+  [Variance spectrum saved at epoch 240000]
+  [Model snapshot saved at epoch 240000]
+  Epoch 240000: loss = 0.000785, erank = 3.68, lr = 0.000200 (elapsed: 4.8min, ETA: 7.2min)
+  [Checkpoint saved at epoch 240000]
+  Epoch 245000: loss = 0.000754, erank = 3.68, lr = 0.000200 (elapsed: 5.4min, ETA: 6.6min)
+  [Variance spectrum saved at epoch 250000]
+  Epoch 250000: loss = 0.000714, erank = 3.68, lr = 0.000200 (elapsed: 6.0min, ETA: 6.0min)
+  [Checkpoint saved at epoch 250000]
+  Epoch 255000: loss = 0.070658, erank = 3.68, lr = 0.000200 (elapsed: 6.6min, ETA: 5.4min)
+  [Variance spectrum saved at epoch 260000]
+  [Model snapshot saved at epoch 260000]
+  Epoch 260000: loss = 0.000666, erank = 3.69, lr = 0.000200 (elapsed: 7.2min, ETA: 4.8min)
+  [Checkpoint saved at epoch 260000]
+  Epoch 265000: loss = 0.000640, erank = 3.69, lr = 0.000200 (elapsed: 7.8min, ETA: 4.2min)
+  [Variance spectrum saved at epoch 270000]
+  Epoch 270000: loss = 0.000629, erank = 3.69, lr = 0.000200 (elapsed: 8.4min, ETA: 3.6min)
+  [Checkpoint saved at epoch 270000]
+  Epoch 275000: loss = 0.000611, erank = 3.69, lr = 0.000200 (elapsed: 9.0min, ETA: 3.0min)
+  [Variance spectrum saved at epoch 280000]
+  [Model snapshot saved at epoch 280000]
+  Epoch 280000: loss = 0.000582, erank = 3.69, lr = 0.000200 (elapsed: 9.6min, ETA: 2.4min)
+  [Checkpoint saved at epoch 280000]
+  Epoch 285000: loss = 0.000584, erank = 3.69, lr = 0.000200 (elapsed: 10.2min, ETA: 1.8min)
+  [Variance spectrum saved at epoch 290000]
+  Epoch 290000: loss = 0.000634, erank = 3.69, lr = 0.000200 (elapsed: 10.8min, ETA: 1.2min)
+  [Checkpoint saved at epoch 290000]
+  Epoch 295000: loss = 0.000526, erank = 3.69, lr = 0.000200 (elapsed: 11.4min, ETA: 0.6min)
